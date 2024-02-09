@@ -23,7 +23,7 @@ def create_query(profile_information: dict):
     job_type = profile_information.get("Job Type", "")
     experience_level = profile_information.get("Experience Level", "")
     if experience_level != "":
-        filters['experience_level'] = [experience_level,"Not Applicable"]
+        filters['experience_level'] = {'$in': [experience_level, "Not Applicable"]}
     if len(hard_skills) > 0:
         filters['hard_skills'] = {'$in': hard_skills}
     if len(soft_skills) > 0:
