@@ -18,6 +18,7 @@ import nltk
 from dotenv import load_dotenv
 load_dotenv()
 nltk.download('stopwords')
+nltk.download('punkt')
 import streamlit as st
 from streamlit.logger import get_logger
 from profile_data import process_resume, normalize_title
