@@ -108,3 +108,5 @@ wasabi==0.10.1
 watchdog==4.0.0
 wordtrie==0.0.4
 zipp==3.17.0
+rapidfuzz==3.6.2
+python-dotenv==1.0.1
