@@ -17,9 +17,6 @@ data = data[[
     'Company',
     'Job Title',
     'Job Description',
-    'Job Type',
-    'Linkedin Job Link',
-    'Country',
     'Job Level'
 ]]
 print("Loaded dataframe...")
